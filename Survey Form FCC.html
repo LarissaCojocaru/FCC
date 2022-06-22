@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+        <title>Survey Form</title>
+        <link rel="stylesheet" type="text/css" href="Survey Form FCC.css">
+   </head>
+   <body>
+        <div id="container">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Thank you for your time</p>
+        <form id="survey-form">
+      
+       
+       <fieldset>
+         <label id="name-label">Name <input type="text"  name="name" placeholder="enter your name" /> </label>
+         <label id="email-label">Email <input type="email" id="email" name="email" placeholder="enter your Email" /> </label>
+         <label id="number-label">Age <input type="number"  id="number"   name="Age" min="12" max="99" /> </label>
+
+         </fieldset>
+
+         <fieldset>
+          <label> Which of those describes you best
+               <select id="dropdown" name="role">
+                 <option> Student </option>
+                 <option> Full time job </option>
+                 <option> Full time learner </option>
+                 <option> Prefer not to say </option>
+                 <option> Other </option>
+
+         </select>
+         </label>
+         </fieldset>
+
+         <label>
+              Would you recommend this survey to a friend?
+              <input type="radio" name="user-recommend" value="definitely" class="inline" /> Definitely
+          </label>
+
+          <label>
+               <input type="radio" name="user-recommend" value="maybe" class="inline">Maybe
+           </label>
+
+           <label> 
+                <input type="radio" name="user-recommend" value="not sure" class="inline" />Not sure
+           </label>
+
+           <label>
+                <input type="radio" name="user-recommend" value="no" class="inline" />No
+             </label>  
+
+
+           <label>What would you want from us?
+                <select  name="fav_feature">
+                     <option value="">Select an option</option>
+                     <option value="1">Comunity</option>    
+                     <option value="2">Projects</option>
+                     <option value="3">Challenges</option>
+                     <option value="4">Learning</option>
+               </select>
+               </label>
+                  
+
+        <fieldset>
+             <label>What would you like to do?
+                <input type="checkbox" name="prefer" value="To learn" class="inline" />To learn
+             </label>
+
+             <label>
+                  <input type="checkbox" name="prefer" value="To make friends" class="inline" />To make friends
+              </label>
+
+             <label>
+                  <input type="checkbox" name="prefer" value="Forum" class="inline" />Forum
+              </label>
+
+              <label>
+                   <input type="checkbox" name="prefer" value="Help" class="inline" />Help
+               </label>
+
+               <label>
+                    <input type="checkbox" name="prefer" value="Courses" class="inline" />Courses
+                </label>
+
+                <label>
+                     <input type="checkbox" name="prefer" value="Entertainment" class="inline" />Entertainment
+                 </label>         
+
+ 
+               <label>
+                    Do you have any suggestions? <textarea name="suggestions" rows="6" cols="70" placeholder="Enter your suggestion here..."></textarea>
+                </label>
+     </fieldset>
+     <input id="submit" type="submit" value="Submit">
+
+</form>
+ </div>
+   </body>
+
+   </html>
+
+
+

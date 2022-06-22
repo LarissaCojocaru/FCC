@@ -1,0 +1,263 @@
+** start of undefined **
+
+<!DOCTYPE HTML>
+<html>
+   <head>
+        <meta cherset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Survey Form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+   </head>
+   <body>
+        <div id="container">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Thank you for your time</p>
+        <form id="survey-form">
+       
+       
+       <fieldset>
+         <label id="name-label">Name <input required type="text" id="name" name="name" placeholder="enter your name" /> </label>
+         <label id="email-label">Email <input required type="email" id="email" name="email" placeholder="enter your Email" /> </label>
+         <label id="number-label">Age <input id="number" type="number" name="Age" min="12" max="99" placeholder="Enter your age" /> </label>
+
+         </fieldset>
+
+         <fieldset>
+          <label> Which of those describes you best
+               <select id="dropdown" name="role">
+                 <option> Student </option>
+                 <option> Full time job </option>
+                 <option> Full time learner </option>
+                 <option> Prefer not to say </option>
+                 <option> Other </option>
+
+         </select>
+         </label>
+         </fieldset>
+
+         <label>
+              Would you recommend this survey to a friend?
+              <input type="radio" name="user-recommend" value="definitely" class="inline" /> Definitely
+          </label>
+
+          <label>
+               <input type="radio" name="user-recommend" value="maybe" class="inline">Maybe
+           </label>
+
+           <label> 
+                <input type="radio" name="user-recommend" value="not sure" class="inline" />Not sure
+           </label>
+
+           <label>
+                <input type="radio" name="user-recommend" value="no" class="inline" />No
+             </label>  
+
+
+           <label>What would you want from us?
+                <select id="dropdown" name="fav_feature">
+                     <option value="">Select an option</option>
+                     <option value="1">Comunity</option>    
+                     <option value="2">Projects</option>
+                     <option value="3">Challenges</option>
+                     <option value="4">Learning</option>
+               </select>
+               </label>
+               </fieldset>      
+
+        <fieldset>
+             <label>What would you like to do?
+                <input type="checkbox" name="prefer" value="To learn" class="inline" />To learn
+             </label>
+
+             <label>
+                  <input type="checkbox" name="prefer" value="To make friends" class="inline" />To make friends
+              </label>
+
+             <label>
+                  <input type="checkbox" name="prefer" value="Forum" class="inline" />Forum
+              </label>
+
+              <label>
+                   <input type="checkbox" name="prefer" value="Help" class="inline" />Help
+               </label>
+
+               <label>
+                    <input type="checkbox" name="prefer" value="Courses" class="inline" />Courses
+                </label>
+
+                <label>
+                     <input type="checkbox" name="prefer" value="Entertainment" class="inline" />Entertainment
+                 </label>         
+
+ 
+               <label>
+                    Do you have any suggestions? <textarea name="suggestions" rows="6" cols="70" placeholder="Enter your suggestion here..."></textarea>
+                </label>
+     </fieldset>
+     <input id="submit" type="submit" value="Submit">
+
+</form>
+ </div>
+   </body>
+
+   </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+   width: 100%;
+   height: 100vh;
+   margin: 0;
+   
+
+
+   background-color: gray;
+   font-family: Verdana;
+   color: white;
+   font-size: Verdana;
+}
+
+container{
+background-color: yellow;
+margin: 2rem 15%
+
+}
+
+form{
+width: 60vw;
+min-width: 300px;
+max-width: 550px;
+margin: 0 auto;
+padding-bottom: 2em;
+}
+
+h1,p{
+margin:1em auto;
+width:100%;
+position: relative;
+color: white;
+text-align: center;
+
+
+}
+
+label{
+   display: block;
+   margin: 0.5rem 0;
+}
+
+fieldset{
+   border: none;
+   padding: 2rem 0;
+}
+
+input, textarea, select{
+      background-color: purple;
+      min-height: 1em;
+      width: 100%;
+      margin: 10px 0 0 0;
+
+
+
+}
+
+input, textarea{
+   color: #ffffff;
+   border: none;
+   border: 1px solid #0a0a23
+}
+
+.inline{
+   margin: 0 0.5rem 0 0;
+   width: unset;
+   vertical-align: center;
+
+
+
+}
+
+  placeholder{
+   color: white;
+   opacity: 1;
+}
+  
+  input[type="submit"]{
+   width:60%;
+   display: block;
+   min-width: 300px;
+   border: solid 1px white;
+   font-size: 1.0rem;
+   height: 2em;
+   margin: 1em auto;
+
+}
+
+input[type="text"]{
+   margin: 0 0;
+}
+
+#dropdown {
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+** end of undefined **
+
